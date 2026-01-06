@@ -40,7 +40,7 @@ function displayResult(data, searchedWord) {
     const meaningText = definitionData.definition;
     const partOfSpeech = meaning.partOfSpeech || "Not available";
 
-    // ✅ Always provide an example
+    // example
     const example =
         definitionData.example ||
         `This is an example sentence using the word "${searchedWord}".`;
@@ -74,3 +74,4 @@ function displayResult(data, searchedWord) {
         resultDiv.appendChild(btn);
     }
 }
+
